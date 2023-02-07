@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="css/estilo.css">
+
+    </head>
+    <body>
+      <div class="p-3"></div>
+        <!-- MENU ENCABEZADO -->
+        <div class="contenedor-header">
+            <header>
+
+                <div class="logo">
+                    <span id="span">¡Hola mundo soy David!</span>
+
+                </div>
+
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a>
+                        </li>
+                        <li>
+                            <a href="#skills" onclick="seleccionar()">HABILIDADES</a>
+                        </li>
+                        <li>
+                            <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </header>
+        </div>
+
+
+        
+
+        <!-- SECCION INICIO -->
+       
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner scroll-content fadeTop">
+                <div class="contenedor-img">
+                    <img src="img/perfil.jpg" alt="">
+                </div>
+                <h1>David Martinez</h1>
+                <h2>Desarrollador Web - Estudiante Universitario</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/notdaviz/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/EdgarGongalez">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://github.com/David30Mtz">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/edgar-david-mart%C3%ADnez-gonzalez-025a65248/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/davidd_mtzg/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION SOBRE MI -->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p>
+                    <span>Hola, soy David Martinez,
+                    </span>Un joven de 22 años, Estudiante universitario en busca de experiencia como desarrollador web fullstack, me encanta aprender cosas nuevas
+                    .</p>
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                15-10-2000
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +52 477 629 6601
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                edgarmartinez19002218@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                aúnotengo.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                León Guanajuato, México
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>FreeLancer</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+
+                            <div class="interes">
+                                <i class="fa-solid fa-futbol"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>AUTOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-brands fa-twitch"></i>
+                                <span>TWITCH</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-brands fa-youtube"></i>
+                                <span>YOUTUBE</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV
+                    <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- SECCION SKILLS -->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!-- Technical Skill -->
+                    <div class="col">
+                        <h3>Técnicas</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>37%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Photoshop</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Bootstrap</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>36%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>15%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professional Skills -->
+                    <div class="col">
+                        <h3>Profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>78%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>64%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Liderazgo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>68%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Entornos Virtuales y Negocios Digitales</h4>
+                            <span class="casa">Universidad Tecnológica De León</span>
+                            <span class="fecha">2019 - 202?</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Diseño Grafico</h4>
+                            <span class="casa">Sabes La Piscina Vespertino</span>
+                            <span class="fecha">202? - 201?</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Bootcam Intensivo Js, React & Node</h4>
+                            <span class="casa">Auto Didacta</span>
+                            <span class="fecha">2023 - 202?</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item der">
+                            <h4>Desarrollo web </h4>
+                            <span class="casa">Sicresa</span>
+                            <span class="fecha">2023 - 2023</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Front Developer</h4>
+                            <span class="casa">Nombre de Compañía</span>
+                            <span class="fecha">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque
+                                repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus
+                                veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo,
+                                veritatis?</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- SECCION PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Modelado 3D</h3>
+                            <p>Barra Bar</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Modelado 3D</h3>
+                            <p>Salón Universitario</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Modelado 3D</h3>
+                            <p>Maceta</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Realidad Aumentada</h3>
+                            <p>Videojuegos en realidad aumentada</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Social Media</h3>
+                            <p>Manejo de redes sociales</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p6.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <form method="POST"action="helper/guardardatos.php">
+                        <input type="text" name = "nombre" placeholder="Tú Nombre">
+                        <input type="text" name = "num" placeholder="Número telefónico">
+                        <input type="text" name = "correo" placeholder="Dirección de correo">
+                        <input type="text" name = "tema" placeholder="Tema">
+                        <textarea name="msj" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="fa-solid fa-paper-plane"> Enviar Mensaje    </button>
+                        </form>
+                        
+                            <!-- <span class="overlay"></span> -->
+                     
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="img/ubicacion.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    León Guanajuato México
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Llamame: 477-629-6601
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: edgarmartinez19002218@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="https://www.facebook.com/notdaviz/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/EdgarGongalez">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://github.com/David30Mtz">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/edgar-david-mart%C3%ADnez-gonzalez-025a65248/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/davidd_mtzg/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </footer>
+
+        <script src="Js/script.js"></script>
+        <script src="Js/scroll.js"></script>
+
+    </body>
+</html>
